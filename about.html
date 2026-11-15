@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABOUT</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { min-height: 100vh; background: #000; color: #fff; font-family: "Segoe UI", Arial, sans-serif; padding: 40px 20px; }
+        .wrap { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; font-size: 44px; letter-spacing: 6px; margin-bottom: 10px;
+             background: linear-gradient(90deg, #ff8a1f, #fff1d6, #2fe0f0);
+             -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .sub { text-align: center; color: #bbb; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+        .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; padding: 22px;
+                text-decoration: none; color: #fff; transition: border-color .3s, transform .3s; display: block; }
+        .card:hover { border-color: #ff8a1f; transform: translateY(-4px); }
+        .card h3 { color: #ff8a1f; margin-bottom: 8px; font-size: 16px; letter-spacing: 1px; }
+        .card p { color: #ccc; font-size: 14px; line-height: 1.5; }
+        .bar { height: 8px; background: rgba(255,255,255,0.12); border-radius: 4px; margin-top: 14px; overflow: hidden; }
+        .bar div { height: 100%; background: linear-gradient(90deg, #ff8a1f, #2fe0f0); border-radius: 4px; }
+        .btn { display: inline-block; background: #d4981a; color: #000; padding: 12px 28px; border-radius: 6px;
+               text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 15px; }
+        .center { text-align: center; margin-top: 40px; }
+        input, textarea { width: 100%; padding: 12px; margin-bottom: 14px; background: rgba(255,255,255,0.06);
+               border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; color: #fff; font-size: 15px; font-family: inherit; }
+        input:focus, textarea:focus { outline: none; border-color: #ff8a1f; }
+        .back { display: inline-block; margin-bottom: 30px; color: #bbb; text-decoration: none; }
+        .back:hover { color: #ff8a1f; }
+    
+        .about { display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center; margin-top: 20px; }
+        .photo { width: 220px; height: 220px; border-radius: 50%; border: 3px solid #ff8a1f; object-fit: cover;
+                 box-shadow: 0 0 25px rgba(255,138,31,0.5); background: rgba(255,255,255,0.06); }
+        .text { flex: 1; min-width: 280px; max-width: 520px; }
+        .text h2 { color: #ff8a1f; margin-bottom: 12px; }
+        .text p { color: #ccc; line-height: 1.7; margin-bottom: 14px; }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <a class="back" href="port.html">&larr; Back to Home</a>
+    <h1>ABOUT</h1>
+    <p class="sub">A little about me.</p>
+
+    <div class="about">
+        <!-- Put your photo in the same folder and change photo.jpg to your file name -->
+      <img class="photo" src="c:\Users\acer\Downloads\PIC.jpg" alt="My photo">
+
+        <div class="text">
+            <h2>Hi, FAHEEM AHMED S</h2>
+            <P><H3>I am an aspiring web developer with a strong interest in creating thoughtful, engaging, and user-friendly digital experiences. I enjoy turning ideas into websites that combine clear design with reliable functionality. Through each project, I aim to create work that is visually appealing, easy to navigate, and accessible across different devices.
+
+I am developing my skills in HTML, CSS, and JavaScript, and I enjoy learning how these technologies work together to bring a webpage to life. I am especially interested in page structure, responsive layouts, color and typography, and interactive features. As I continue learning, I explore new tools and techniques, practise by building projects, and look for ways to improve the quality of my code and design.
+
+This portfolio presents some of the projects I have created, the skills I am building, and the progress I have made as a developer. Every project gives me a chance to practise, solve problems, and express my creativity. I believe good development takes patience, curiosity, and attention to detail, and I am committed to strengthening these qualities with every new challenge.
+
+When I am not coding, I enjoy discovering design ideas, learning about technology, and finding inspiration for future projects. I am excited to keep growing, collaborate with others, and create digital experiences that are useful, welcoming, and memorable. Thank you for visiting my portfolio and taking the time to explore my work.</H3></P>
+    
+        </div>
+    </div>
+
+    <h2 style="margin:50px 0 20px;text-align:center;">Quick Facts</h2>
+    <div class="grid">
+        <div class="card"><h3>NAME</h3><p>FAHEEM AHMED S</p></div>
+        <div class="card"><h3>LOCATION</h3><p>📍 Chennai, Tamil Nadu, India</p></div>
+        <div class="card"><h3>EDUCATION</h3><p>I am pursuing a four-year Bachelor of Technology (B.Tech) degree in Computer Science and Engineering, where I am building a strong foundation in programming, software development, and computer science principles.</p></div>
+        <div class="card"><h3>INTERESTS</h3><p>Web design, vibe coding, front-end development, UI/UX design, creative coding, and learning programming languages such as HTML, CSS, JavaScript, and Python.</p></div>
+    </div>
+</div>
+</body>
+</html>
